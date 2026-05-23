@@ -25,6 +25,12 @@ chat_deepseek(
   echo = NULL,
   api_headers = character()
 )
+
+models_deepseek(
+  base_url = "https://api.deepseek.com",
+  api_key = NULL,
+  credentials = NULL
+)
 ```
 
 ## Arguments
@@ -105,6 +111,7 @@ Other chatbots:
 [`chat_google_gemini()`](https://ellmer.tidyverse.org/dev/reference/chat_google_gemini.md),
 [`chat_groq()`](https://ellmer.tidyverse.org/dev/reference/chat_groq.md),
 [`chat_huggingface()`](https://ellmer.tidyverse.org/dev/reference/chat_huggingface.md),
+[`chat_lmstudio()`](https://ellmer.tidyverse.org/dev/reference/chat_lmstudio.md),
 [`chat_mistral()`](https://ellmer.tidyverse.org/dev/reference/chat_mistral.md),
 [`chat_ollama()`](https://ellmer.tidyverse.org/dev/reference/chat_ollama.md),
 [`chat_openai()`](https://ellmer.tidyverse.org/dev/reference/chat_openai.md),

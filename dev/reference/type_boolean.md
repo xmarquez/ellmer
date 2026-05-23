@@ -60,7 +60,7 @@ type_object(
   .description = NULL,
   ...,
   .required = TRUE,
-  .additional_properties = FALSE
+  .additional_properties = deprecated()
 )
 
 type_from_schema(text, path)
@@ -107,8 +107,8 @@ type_ignore()
 
 - .additional_properties:
 
-  Can the object have arbitrary additional properties that are not
-  explicitly listed? Only supported by Claude.
+  **\[deprecated\]** Can the object have arbitrary additional properties
+  that are not explicitly listed? Only supported by Claude.
 
 - text:
 
@@ -159,7 +159,7 @@ type_array(type_object(
 #>  .. @ additional_properties: logi FALSE
 
 # There's no specific type for dates, but you use a string with the
-# requested format in the description (it's not gauranteed that you'll
+# requested format in the description (it's not guaranteed that you'll
 # get this format back, but you should most of the time)
 type_string("The creation date, in YYYY-MM-DD format.")
 #> <ellmer::TypeBasic>

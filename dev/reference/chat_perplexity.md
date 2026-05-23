@@ -34,7 +34,7 @@ chat_perplexity(
 
 - base_url:
 
-  The base URL to the endpoint; the default is OpenAI's public API.
+  The base URL to the API endpoint.
 
 - api_key:
 
@@ -53,10 +53,9 @@ chat_perplexity(
 
 - model:
 
-  The model to use for the chat (defaults to
-  "llama-3.1-sonar-small-128k-online"). We regularly update the default,
-  so we strongly recommend explicitly specifying a model for anything
-  other than casual use.
+  The model to use for the chat (defaults to "sonar"). We regularly
+  update the default, so we strongly recommend explicitly specifying a
+  model for anything other than casual use.
 
 - params:
 
@@ -106,6 +105,7 @@ Other chatbots:
 [`chat_google_gemini()`](https://ellmer.tidyverse.org/dev/reference/chat_google_gemini.md),
 [`chat_groq()`](https://ellmer.tidyverse.org/dev/reference/chat_groq.md),
 [`chat_huggingface()`](https://ellmer.tidyverse.org/dev/reference/chat_huggingface.md),
+[`chat_lmstudio()`](https://ellmer.tidyverse.org/dev/reference/chat_lmstudio.md),
 [`chat_mistral()`](https://ellmer.tidyverse.org/dev/reference/chat_mistral.md),
 [`chat_ollama()`](https://ellmer.tidyverse.org/dev/reference/chat_ollama.md),
 [`chat_openai()`](https://ellmer.tidyverse.org/dev/reference/chat_openai.md),
